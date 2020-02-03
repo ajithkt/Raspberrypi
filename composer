@@ -1,0 +1,171 @@
+105  curl -sS https://getcomposer.org/installer | php
+  106  ls -ltr
+  107  mv composer.phar /usr/local/bin/
+  108  cd /usr/local/bin
+  109  ls
+  110  chmod 755 composer.phar 
+  111  exit
+  112  ls -la
+  113  vi .bash_profile
+  114  source .bash_profile 
+  115  composer --version
+  116  vi .bash_profile
+  117  composer --version
+  118  source .bash_profile 
+  119  composer --version
+  120  cd /Applications/
+  121  pwd
+  122  composer --version
+  123  cat .bash_profile 
+  124  source .bash_profile 
+  125  composer --version
+  126  cd /Applications/MAMP
+  127  cd htdocs
+  128  pwd
+  129  ls
+  130  composer global require drush
+  131  composer global require drush/drush
+  132  cat composer.json 
+  133  ls -ltr
+  134  date
+  135  composer global update
+  136  composer update
+  137  composer install drush/drush
+  138  pwd
+  139  cd vendor/
+  140  composer require drush/drush
+  141  cd ../
+  142  ls -ltr
+  143  find . -name drush
+  144  cd vendor//bin/
+  145  ./drush updatedb
+  146  ./drush cr
+  147  ./drush updatedb -vvv
+  148  drush --version
+  149  ./drush --version
+  150  pwd
+  151  cd ../../
+  152  pwd
+  153  ./vendor/bin/drush updatedb
+  154  ./vendor/bin/drush updatedb -vvv
+  155  /Applications/MAMP/htdocs/vendor/drush/drush/drush updatedb
+  156  composer outdated "drupal/*"
+  157  composer update drupal/core webflo/drupal-core-require-dev --with-dependencies
+  158  pwf
+  159  pwd
+  160  vendor/bin/drush cache:rebuild
+  161  sudo mkdir /var/mysql
+  162  sudo ln -s /Applications/MAMP/tmp/mysql/mysql.sock /var/mysql/mysql.sock
+  163  vendor/bin/drush cache:rebuild
+  164  ./vendor/bin/drush updatedb 
+  165  ./vendor/bin/drush updatedb 
+  166  pwd
+  167  ls -lrt
+  168  cd vendor/
+  169  ls
+  170  pwd
+  171  cd ../
+  172  pwd
+  173  ls -al
+  174  cd .../
+  175  cd /Applications/MAMP
+  176  ls
+  177  cd htdocs
+  178  ls
+  179  ls
+  180  cd sites/
+  181  ls
+  182  pwd
+  183  cd ../
+  184  pwd
+  185  ls -ltr
+  186  vendor/bin/drush pml
+  187  composer update drupal/cpsre --with-dependencies
+  188  source ~/.bash_profile 
+  189  composer update drupal/core --with-dependencies
+  190  composer show -i
+  191  composer clear-cache
+  192  composer update drupal/core --with-dependencies
+  193  vendor/bin/drush pml
+  194  composer update --with-dependencies
+  195  vendor/bin/drush pml
+  196  composer update drupal/core  --with-dependencies
+  197  composer clear-cache
+  198  vendor/bin/drush pml
+  199  vendor/bin/drush pml
+  200  vendor/bin/drush pml
+  201  vendor/bin/drush pml
+  202  vendor/bin/drush pml
+  203  composer clear-cache
+  204  composer update drupal/core  --with-dependencies
+  205  ls -ltr
+  206  vi composer.json 
+  207  composer clear-cache
+  208  vi composer.json 
+  209  composer clear-cache
+  210  composer update drupal/core  --with-dependencies
+  211  composer clear-cache
+  212  vendor/bin/drush pml
+  213  composer update drupal/core  --with-dependencies
+  214  composer update drupal/core 8.8.2 --with-dependencies
+  215  composer self-update 1.7.2
+  216  composer update drupal/core  --with-dependencies
+  217  vendor/bin/drush pml
+  218  vendor/bin/drush cr
+  219  vendor/bin/drush pml
+  220  composer update drupal/core  --with-dependencies
+  221  vendor/bin/drush pml
+  222  vendor/bin/drush updatedb
+  223  vendor/bin/drush cr
+  224  composer update drupal/core  --with-dependencies
+  225  pwd
+  226  ls -ltr
+  227  vi composer.json 
+  228  composer clear-cache
+  229  composer update drupal/core  --with-dependencies
+  230  composer update drupal/*  --with-dependencies
+  231  composer update equlias/*  --with-dependencies
+  232  vi composer.json 
+  233  composer update equlias/email-validator
+  234  vi composer.json 
+  235  find . -name composer.json
+  236  find . -name composer.json | grep -i email
+  237  vi ./vendor/egulias/email-validator/composer.json
+  238  find . -name composer.json | grep -i core
+  239  vi core/composer.json
+  240  composer update drupal/*  --with-dependencies
+  241  vi composer.json 
+  242  vi core/composer.json 
+  243  vi core/composer.json 
+  244  composer update drupal/*  --with-dependencies
+  245  vi core/composer.json 
+  246  vi core/composer.json 
+  247  vi core/composer.json 
+  248  composer update drupal/*  --with-dependencies
+  249  composer update egulias/email-validator drupal/core --with-dependencies
+  250  composer update egulias/email-validator drupal/core  typo3/phar-stream-wrapper doctrine/annotations --with-dependencies
+  251  vi core/composer.json 
+  252  vi composer.json 
+  253  ls -ltr
+  254  find / -name compose.json | grep -i anno
+  255  find . -name compose.json | grep -i anno
+  256  find . -name composer.json | grep -i anno
+  257  vi ./vendor/doctrine/annotations/composer.json
+  258  grep -rnw "doctrine/annotations" -e ./
+  259  grep -rnw ./ -e "doctrine/annotations"
+  260  ls -ltr
+  261  mv composer.lock /var/tmp/
+  262  composer update egulias/email-validator drupal/core  typo3/phar-stream-wrapper doctrine/annotations --with-dependencies
+  263  mv /var/tmp/composer.lock ./
+  264  ls -ltr
+  265  vi .//core/lib/Drupal/Component/Annotation/composer.json
+  266  composer update egulias/email-validator drupal/core  typo3/phar-stream-wrapper doctrine/annotations --with-dependencies
+  267  composer update drupal/* --with-dependencies
+  268  composer update zendframework/* --with-dependencies
+  269  vendor/bin/drush updatedb
+  270  vendor/bin/drush ucr
+  271  vendor/bin/drush cr
+  272  vendor/bin/drush pml
+  273  hi
+  274  history 
+TUFVFXF1Z5HV2H:htdocs root# 
